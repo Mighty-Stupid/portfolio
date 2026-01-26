@@ -1,0 +1,125 @@
+.Parent{
+    width: 99vw;
+    height: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+    position: relative;
+    overflow: hidden;
+    border-bottom: 4px solid black;
+}
+
+.imagediv {
+    position: absolute;
+    bottom: -2%;
+    left: 0;
+    height: auto;
+    width: clamp(1000px, 100vw, 1500px); /* Responsive width with limits */
+    animation: fadein 1s ease-in-out;
+    left: 50%; /* Эта комбинация с transform позицианирует img по центру вне зависимости от размера/сужение экрана */
+    transform: translateX(-50%);
+}
+
+.imagediv img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.text1{
+    position: absolute;
+    left: 10%;
+    bottom: 10%;
+    width: 28%;
+    height: auto;
+    color: white;
+    letter-spacing: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Marck Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.text2{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    width: 28%;
+    height: auto;
+    color: white;
+    letter-spacing: 0.3rem;
+    align-items: center;
+}
+
+.Curve_div{
+ position: absolute;
+ right: 10;
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 1s ease-in-out forwards;
+  animation-delay: 0.5s;
+}
+
+.Curve_div svg{
+    width: 400px;
+}
+
+
+
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+
+
+.Parent h1{
+    font-size: 6rem;
+}
+.Parent p{
+  font-style: normal;
+  margin-top: 20px;
+  opacity: 0.7;
+  font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+.text2 h1{
+    font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+@keyframes fadein{
+    0%{
+        opacity: 0;
+
+    }
+    100%{
+        opacity: 1;
+
+    }
+}
+
+
+@media screen and (max-width: 1400px){
+    .Parent p{
+        font-size: 1.2rem;
+    }
+    .Parent h1{
+        font-size: 4.5rem;
+    }
+    .Curve_div svg{
+    width: 300px;
+    }
+    .Curve_div{
+    bottom: 10%;
+    }
+    .imagediv{
+        width: clamp(1300px, 130vw, 1500px);
+    }
+}
+
+@media screen and (max-width: 800px){
+}

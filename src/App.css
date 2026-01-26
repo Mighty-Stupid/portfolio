@@ -1,0 +1,37 @@
+* {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+}
+
+body{
+  background-color: rgb(245, 245, 245);
+}
+
+h1{
+  color: rgb(0, 0, 0);
+  font-size: 4rem;
+}
+
+h2{
+  color: white;
+}
+p{
+  color: rgb(53, 53, 53);
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+}
+
+::-webkit-scrollbar {
+  width: 8px; /* vertical scrollbar width */
+  height: 12px;
+}
+::-webkit-scrollbar-thumb {
+  background: #888; /* thumb color */
+  border-radius: 8px;
+}
+
+div * {
+  text-align: center;
+}

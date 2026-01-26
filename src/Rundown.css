@@ -1,0 +1,216 @@
+.Parent-rundown{
+    margin: 0 auto;
+    margin-top: 100px;
+    padding-top: 100px;
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-color: rgb(247, 247, 247);
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+}
+
+h1{
+
+}
+h2{
+    font-size: 1.7rem;
+}
+.Stack-header {
+    position: relative;
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+}
+
+.Stack-header h1{
+    margin-top: 20px;
+    padding: 10px;
+    letter-spacing: 0.2rem;
+    color: rgb(0, 0, 0);
+    position: relative;
+    font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+.ColorBlock2 {
+    background-color: rgb(174, 255, 128);
+    width: 380px;
+    height: 90px;
+    position: absolute;
+    z-index: 1;
+    transform-origin: left;
+    bottom: 5%;
+    border-radius: 10px;
+}
+
+
+.Stack-container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 12px 0px rgb(148, 148, 148);
+}
+.Stack-container img{
+    width: 80px;
+    object-fit: contain;
+}
+
+.svgText{
+    background-color: rgb(87, 87, 87);
+    padding-top: 1%;
+    margin: 10px;
+    box-shadow: 0px 0px 6px 1px;
+    border-radius: 5px;
+    width: 150px;
+    flex-shrink: 0;
+    z-index: 1;
+}
+
+.ShapeHTML{
+        filter: drop-shadow(0 0 8px #fc793d);
+        transition: 0.3s ease-in-out;
+}
+
+.ShapeCSS{
+        filter: drop-shadow(0 0 8px #3d99fc);
+        transition: 0.5S;
+}
+
+.ShapeSASS{
+            filter: drop-shadow(0 0 8px #fc3dfc);
+}
+
+.ShapeJAVAS{
+        filter: drop-shadow(0 0 8px #fcef3d);
+}
+
+.ShapeTYPES{
+    filter: drop-shadow(0 0 8px #3d99fc);
+}
+
+.ShapeREACT{
+    filter: drop-shadow(0 0 8px #3d99fc);
+}
+
+.ShapeREACT{
+    filter: drop-shadow(0 0 8px #5eacff);
+}
+
+.ShapeThree_js{
+    filter: drop-shadow(0 0 8px #000000);
+}
+
+.ShapeBlender{
+    filter: drop-shadow(0 0 8px #ffaf479c);
+}
+
+.ShapePhotoshop{
+    filter: drop-shadow(0 0 8px #3d99fc);
+}
+
+.stuff{
+    transition: 0.5s;
+}
+.stuff:hover{
+    transform: scale(1.1);
+}
+.Blender-div{
+    position: relative;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 5%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    box-shadow: 0px 0px 12px 0px rgb(148, 148, 148);
+}
+
+.Truck-text{
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom: 5%;
+    word-break: keep-all;
+    max-width: 30%;
+    height: 40%;
+    z-index: 0;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+.Truck-text h2 {
+  color: #1a365d; /* Темно-синий для бизнес-стиля */
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.5px;
+  text-transform: uppercase;
+}
+
+.Truck-text p {
+  color: #4a5568; /* Более светлый оттенок того же синего */
+  font-size: 1.4rem;
+  line-height: 1.7;
+  margin: 0;
+  font-weight: 400;
+  opacity: 0.9;
+}
+
+.color-line{
+    width: 80%;
+    height: 10px;
+    background-color:#ffa600 ;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+footer{
+    margin-top: 100px;
+    height: 300px;
+    width: 100%;
+    background-color: #3d99fc;
+    background-color: rgb(41, 41, 41);
+}
+
+label{
+    height: auto;
+    color: rgb(0, 0, 0);
+    font-size: 1.7rem;
+}
+
+
+
+@media screen and (max-width: 1400px){
+    .Stack-container{
+        width: 90%;
+        gap: 20px;
+    }
+    .svgText{
+        flex: 0 0 26%;
+    }
+    .Blender-div{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .Stack-container{
+
+    }
+    .svgText{
+
+    }
+    .Blender-div{
+        width: 100%;
+    }
+}

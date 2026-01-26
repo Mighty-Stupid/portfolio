@@ -1,0 +1,38 @@
+:root{
+        --orange-color: #FF8543;
+        --red-color: #FF5050;
+    }
+
+    #Frame1 {
+        cursor: pointer;
+    }
+
+    #reds {
+        fill: var(--red-color)
+    }
+
+    #orange{
+        fill: var(--orange-color);
+    }
+
+    #red1,
+    #red2,
+    #orange1 {
+        transition: all 500ms ease;
+    }
+    #red2{
+        transform: translateX(-100%);
+    }
+
+    #Frame1:hover #orange1 {
+        transform: translateX(20%);
+    }
+
+    #Frame1:hover #red1 {
+        transform: translateX(40%);
+        opacity: 0;
+    }
+
+    #Frame1:hover #red2 {
+        transform: translateX(0%);
+    }
