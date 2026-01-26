@@ -143,9 +143,7 @@ function Rundown(){
                 <Gear/>
                 <Truck/>
                 <div className='Truck-text'>
-                    <h2>3D АНИМАЦИЯ</h2> 
-                    <div className='color-line'></div>
-                    <p> 3D статичные Анимации бэкграунда и интерактивные анимации при взаимодействии с кнопкой, скроле страницы и других действий</p> 
+
                 </div>   
             </motion.div>
             
