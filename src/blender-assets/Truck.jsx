@@ -108,7 +108,7 @@ function Truck() {
     <div className='Truck'>
       {/* Добавили кнопку */}
 
-      <img src="./src/svg-assets/fill.svg" className='color-change-btn' onClick={changeColor}></img>
+      <img src="./src/svg-assets/fill.svg" className='color-change-btn' onClick={changeColor} alt=""></img>
       
       <Canvas>
         <ambientLight intensity={3} />

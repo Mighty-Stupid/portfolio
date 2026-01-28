@@ -51,8 +51,8 @@ const Slider = () => {
   
   // Карты и их данные
   const sliderItems = [
-    { id: 1, header : 'АДАПНИВНОСТЬ', content: 'Адаптивная и отзывчивая верстка под все девайсы, от телефонов до мониторов', logo: "/src/svg-assets/computer.svg"  },
-    { id: 2, header : 'АНИМАЦИЯ',content: 'Плавная и интерактивная анимация', logo: "src/svg-assets/play-pause.svg"  },
+    { id: 1, header : 'АДАПНИВНОСТЬ', content: 'Адаптивная и отзывчивая верстка под все девайсы, от телефонов до мониторов', logo: "./src/svg-assets/computer.svg"  },
+    { id: 2, header : 'АНИМАЦИЯ',content: 'Плавная и интерактивная анимация', logo: "./src/svg-assets/play-pause.svg"  },
     { id: 3, header : 'API',content: 'работа с api', logo: "./src/svg-assets/settings.svg"  },
     { id: 4, header : 'ДИЗАЙН',content: 'работа с дизайном', logo: "./src/svg-assets/palette.svg"  },
     { id: 5, header : '',content: 'Slide 5', logo: "./src/assets/react.svg"  },
