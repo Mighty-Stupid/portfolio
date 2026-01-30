@@ -7,6 +7,8 @@ import {
     useScroll,
     useTransform,
 } from "framer-motion";
+
+
 const Slider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [translateValue, setTranslateValue] = useState(33);
@@ -51,7 +53,7 @@ const Slider = () => {
   
   // Карты и их данные
   const sliderItems = [
-    { id: 1, header : 'АДАПНИВНОСТЬ', content: 'Адаптивная и отзывчивая верстка под все девайсы, от телефонов до мониторов', logo: "./src/svg-assets/computer.svg"  },
+    { id: 1, header : 'АДАПНИВНОСТЬ', content: 'Адаптивная и отзывчивая верстка под все девайсы, от телефонов до мониторов', logo: "./public/svg-assets/computer.svg"  },
     { id: 2, header : 'АНИМАЦИЯ',content: 'Плавная и интерактивная анимация', logo: "./src/svg-assets/play-pause.svg"  },
     { id: 3, header : 'API',content: 'работа с api', logo: "./src/svg-assets/settings.svg"  },
     { id: 4, header : 'ДИЗАЙН',content: 'работа с дизайном', logo: "./src/svg-assets/palette.svg"  },
@@ -105,7 +107,7 @@ const Slider = () => {
             viewport={{
                 once: false,
             }} 
-            src={item.logo} className='svg-logo'>        
+            src={item.logo} className='svg-logo'>
             </motion.img>
             </div>
           ))}
