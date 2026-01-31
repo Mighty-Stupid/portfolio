@@ -7,8 +7,7 @@ import {
     useScroll,
     useTransform,
 } from "framer-motion";
-
-
+import Svg_computer from './svg-assets/computer.svg';
 
 const Slider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -54,7 +53,7 @@ const Slider = () => {
   
   // Карты и их данные
   const sliderItems = [
-    { id: 1, header : 'АДАПНИВНОСТЬ', content: 'Адаптивная и отзывчивая верстка под все девайсы, от телефонов до мониторов', logo: "./public/computer.svg"  },
+    { id: 1, header : 'АДАПНИВНОСТЬ', content: 'Адаптивная и отзывчивая верстка под все девайсы, от телефонов до мониторов', logo: Svg_computer  },
     { id: 2, header : 'АНИМАЦИЯ',content: 'Плавная и интерактивная анимация', logo: "./src/svg-assets/play-pause.svg"  },
     { id: 3, header : 'API',content: 'работа с api', logo: "./src/svg-assets/settings.svg"  },
     { id: 4, header : 'ДИЗАЙН',content: 'работа с дизайном', logo: "./src/svg-assets/palette.svg"  },
