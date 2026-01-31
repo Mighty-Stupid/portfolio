@@ -8,6 +8,9 @@ import {
     useTransform,
 } from "framer-motion";
 import Svg_computer from './svg-assets/computer.svg';
+import Svg_play from './svg-assets/play-pause.svg';
+import Svg_settings from './svg-assets/settings.svg';
+import Svg_palette from './svg-assets/palette.svg';
 
 const Slider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -54,9 +57,9 @@ const Slider = () => {
   // Карты и их данные
   const sliderItems = [
     { id: 1, header : 'АДАПНИВНОСТЬ', content: 'Адаптивная и отзывчивая верстка под все девайсы, от телефонов до мониторов', logo: Svg_computer  },
-    { id: 2, header : 'АНИМАЦИЯ',content: 'Плавная и интерактивная анимация', logo: "./src/svg-assets/play-pause.svg"  },
-    { id: 3, header : 'API',content: 'работа с api', logo: "./src/svg-assets/settings.svg"  },
-    { id: 4, header : 'ДИЗАЙН',content: 'работа с дизайном', logo: "./src/svg-assets/palette.svg"  },
+    { id: 2, header : 'АНИМАЦИЯ',content: 'Плавная и интерактивная анимация', logo: Svg_play  },
+    { id: 3, header : 'API',content: 'работа с api', logo: Svg_settings  },
+    { id: 4, header : 'ДИЗАЙН',content: 'работа с дизайном', logo: Svg_palette  },
     { id: 5, header : '',content: 'Slide 5', logo: "./src/assets/react.svg"  },
   ];
 
