@@ -134,6 +134,7 @@ h2{
 }
 
 .Truck-text{
+    background-color: #9ac4ff;
     padding: 10px;
     margin-top: 0px;
     margin-bottom: 5%;
@@ -155,6 +156,7 @@ h2{
   margin-bottom: 1.5rem;
   letter-spacing: -0.5px;
   text-transform: uppercase;
+
 }
 
 .Truck-text p {
@@ -213,4 +215,18 @@ label{
     .Blender-div{
         width: 100%;
     }
+
+    .Truck-text h2{
+        font-size: 1.8rem;
+    }
+    .Truck-text p{
+        font-size: 1rem;
+    }
 }
+
+@media screen and (max-width: 488px){
+    .Truck-text{
+        max-width: 90%;
+        margin-right: 2px;
+    }
+    }
