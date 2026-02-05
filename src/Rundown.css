@@ -124,7 +124,7 @@ h2{
 .Blender-div{
     position: relative;
     width: 80%;
-    height: auto;
+    min-height: 900px;
     margin: auto;
     margin-top: 5%;
     display: flex;
@@ -202,6 +202,7 @@ label{
     }
     .Blender-div{
         width: 90%;
+        min-height: 700px;
     }
 }
 
@@ -221,6 +222,7 @@ label{
     }
     .Blender-div{
         width: 100%;
+        min-height: 500px;
     }
 
     .Truck-text h2{
