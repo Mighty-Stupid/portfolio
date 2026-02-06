@@ -221,6 +221,7 @@ label{
     }
     .Blender-div{
         width: 100%;
+        justify-content: center;
     }
 
     .Truck-text h2{
