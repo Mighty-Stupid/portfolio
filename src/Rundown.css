@@ -202,7 +202,6 @@ label{
     }
     .Blender-div{
         width: 90%;
-        min-height: 700px;
     }
 }
 
@@ -222,7 +221,6 @@ label{
     }
     .Blender-div{
         width: 100%;
-        min-height: 500px;
     }
 
     .Truck-text h2{
