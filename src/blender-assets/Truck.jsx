@@ -3,7 +3,8 @@ import { useRef, useEffect, useState } from 'react'; // Добавили useStat
 import { useFrame } from '@react-three/fiber';
 import { useGLTF, useAnimations } from '@react-three/drei';
 import * as THREE from 'three';
-import './Truck.css'
+import './Truck.css';
+import Svg_fill from '../svg-assets/fill.svg';
 
 function Model({ whiteMaterialColor }) { // Добавили пропс для цвета
   const { scene, animations, cameras } = useGLTF('/Truck-rig-colored.glb');
@@ -108,7 +109,7 @@ function Truck() {
     <div className='Truck'>
       {/* Добавили кнопку */}
 
-      <img src="./src/svg-assets/fill.svg" className='color-change-btn' onClick={changeColor} alt=""></img>
+      <img src={Svg_fill} className='color-change-btn' onClick={changeColor} alt=""></img>
       
       <Canvas>
         <ambientLight intensity={3} />
