@@ -43,7 +43,7 @@ const Slider = () => {
     if (window.innerWidth < 800) {
       setTranslateValue(100); // 100% for mobile
     } else if (window.innerWidth < 1400) {
-      setTranslateValue(47); // 50% for tablet
+      setTranslateValue(50); // 50% for tablet
     } else {
       setTranslateValue(33); // 33% for desktop
     }
