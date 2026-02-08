@@ -2,11 +2,10 @@
     width: 99vw;
     height: 80%;
     margin: 0 auto;
-
     position: relative;
     overflow: hidden;
     border-bottom: 4px solid black;
-
+    margin-top: 100px;
 }
 
 .imagediv {
@@ -122,5 +121,15 @@
     }
 }
 
+
 @media screen and (max-width: 800px){
+        .imagediv{
+        width: clamp(1050px, 110vw, 1300px);
+    }
+        .Parent p{
+        font-size: 0.9rem;
+    }
+    .Parent h1{
+        font-size: 3.8rem;
+    }
 }

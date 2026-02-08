@@ -25,9 +25,10 @@ h2{
 
 .Stack-header h1{
     margin-top: 20px;
+
     padding: 10px;
     letter-spacing: 0.2rem;
-    color: rgb(0, 0, 0);
+    color: #1a365d; /* Темно-синий для бизнес-стиля */
     position: relative;
     font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
 }
