@@ -130,6 +130,14 @@
         font-size: 0.9rem;
     }
     .Parent h1{
-        font-size: 3.8rem;
+        font-size: 3.4rem;
+    }
+    .text1{
+        left: 30%;
+        backdrop-filter: blur(10px);
+    }
+    .text2{
+        right: 30%;
+        backdrop-filter: blur(10px);
     }
 }
