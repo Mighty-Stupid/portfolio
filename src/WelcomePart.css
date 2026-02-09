@@ -135,9 +135,11 @@
     .text1{
         left: 30%;
         backdrop-filter: blur(10px);
+        width: 200px;
     }
     .text2{
         right: 30%;
         backdrop-filter: blur(10px);
+        width: 200px;
     }
 }

@@ -42,7 +42,7 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: rgba(255, 255, 255, 0.438);
+  background: rgba(163, 203, 255, 0.438);
   border: none;
   border-radius: 50%;
   width: 50px;
@@ -53,21 +53,21 @@
   align-items: center;
   justify-content: center;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-  transition: all 0.2s ease;
-  z-index: 10;
+  transition: all 0.3s ease;
+  z-index: 2;
 }
 
 .slider-arrow:hover {
-  background: white;
+  background: rgba(163, 203, 255, 0.253);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
 .slider-arrow-left {
-  left: 1.5%;
+  left: 0.5%;
 }
 
 .slider-arrow-right {
-  right: 0%;
+  right: 1.5%;
 }
 
 .image-hodler{

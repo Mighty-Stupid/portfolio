@@ -204,6 +204,9 @@ label{
         width: 90%;
         min-height: 800px;
     }
+    .Truck-text{
+        max-width: 50%;
+    }
 }
 
 @media screen and (max-width: 800px){
