@@ -55,7 +55,7 @@ function Rundown(){
 
             </div>
 
-            <motion.div
+            <motion.div id='Slider'
             initial={{
                 opacity: 0,
                 translateX: 50
@@ -139,7 +139,7 @@ function Rundown(){
             viewport={{
                 once: true,
             }} 
-            className='Blender-div'>
+            className='Blender-div' id='Blender-div'>
                 <Gear/>
                 <Truck/>
                 <div className='Truck-text'>
@@ -149,7 +149,7 @@ function Rundown(){
                 </div>   
             </motion.div>
             
-            <footer></footer>
+            <footer id='footer'></footer>
         </div>
     )
     

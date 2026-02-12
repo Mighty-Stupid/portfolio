@@ -11,7 +11,7 @@ import {
 function WelcomeP(){
     return(
         <>
-        <div className="Parent" >
+        <div className="Parent" id='main' >
             <div className='imagediv'>
                 <img src='hand4.png'></img>
             </div>
