@@ -10,17 +10,32 @@
     justify-content: space-between;
 }
 
+.menu-toggle{
+    display: none;
+    flex-direction: column;
+    gap: 4px;
+    padding: 8px;
+    width: auto;
+    height: auto;
+    margin: auto 0;
+}
+.menu-toggle span {
+    width: 25px;
+    height: 3px;
+    background-color: rgb(0, 0, 0);
+    transition: 0.5s;
+}
 .icon-menu{
-
     height: 100%;
     width: 10%;
 }
 
 ul{
     height: 100%;
-    width: 50%;
+    width: auto;
     display: flex;
     justify-content: right;
+    margin-right: 200px;
 }
 li{
     margin: auto 15px auto 15px;
@@ -32,4 +47,46 @@ li{
     font-weight: 400;
     cursor: pointer;
     font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+@media screen and (max-width: 1400px){
+    ul{
+        margin-right: 100px;
+    }
+    li{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .menu-toggle{
+        display: flex;
+    }
+    .MenuDiv ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background-color: rgb(65, 65, 65);
+        min-width: 200px;
+        height: auto;
+    }
+    .MenuDiv ul.open {
+        display: flex;
+    }
+
+    .MenuDiv ul li {
+        border-bottom: 1px solid black;
+        color: white;
+    }
+    .MenuDiv ul li:last-child{
+        border-bottom: none;
+    }
+    ul{
+        margin-right: 0px;
+    }
+    li{
+        font-size: 0.8rem;
+    }
 }
