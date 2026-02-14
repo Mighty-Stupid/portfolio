@@ -15,7 +15,7 @@
     display: none;
     flex-direction: column;
     gap: 4px;
-    padding: 3px 0px;
+    padding: 3px 0px 2px 0px;
     width: auto;
     height: auto;
     margin: auto 0;
@@ -29,6 +29,7 @@
 .icon-menu{
     height: 100%;
     width: 100px;
+    margin-left: 100px;
 }
 
 .icon-menu img{
@@ -54,9 +55,10 @@ li{
     font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
 }
 
-a{
+.MenuDiv a{
     margin: auto 15px auto 15px;
     height: auto;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 1400px){
@@ -73,6 +75,9 @@ a{
         display: flex;
         margin-right: 30px;
     }
+    .MenuDiv a{
+        margin: 0;
+    }
     .MenuDiv ul {
         display: none;
         flex-direction: column;
@@ -80,7 +85,7 @@ a{
         top: 100%;
         right: -100px;
         background-color: rgb(65, 65, 65);
-        min-width: 200px;
+        width: auto;
         height: auto;
     }
     .MenuDiv ul.open {
@@ -90,8 +95,18 @@ a{
     .MenuDiv ul li {
         border-bottom: 1px solid black;
         color: white;
+        width: 170px;
+        margin: 0px ;
+        transition: 0.2s ease;
+    }
+
+    .MenuDiv ul li:hover{
+        background-color: rgb(102, 102, 102);
     }
     .MenuDiv ul li:last-child{
-        border-bottom: none;
+
+    }
+    .icon-menu{
+        margin-left: 0px;
     }
 }

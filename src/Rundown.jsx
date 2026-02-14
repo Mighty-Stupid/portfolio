@@ -7,6 +7,8 @@ import Truck from './blender-assets/Truck';
 import { color } from 'three/tsl';
 import React, {useEffect, useRef} from "react";
 import Svg_button from './svg-assets/svg_button';
+import Svg_mobile from './svg-assets/mobile-notch.svg';
+import Svg_mail from './svg-assets/envelope.svg';
 import Slider from './Slider';
 
 import {
@@ -149,7 +151,18 @@ function Rundown(){
                 </div>   
             </motion.div>
             
-            <footer id='footer'></footer>
+            <footer id='footer'>
+                <ul>
+                    <li>
+                        <img src={Svg_mobile}></img>
+                        <p>+7-931-204-48-85</p>
+                    </li>
+                    <li>
+                        <img src={Svg_mail}></img>
+                        <p>islam.cheche@mail.ru</p>
+                    </li>
+                </ul>
+            </footer>
         </div>
     )
     
