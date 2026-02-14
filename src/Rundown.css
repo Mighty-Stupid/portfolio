@@ -184,7 +184,7 @@ footer{
 }
 
 footer ul{
-    width: 900px;
+    max-width:fit-content;
     margin: 0 auto;
     display: flex;
     flex-direction: flex;
@@ -194,7 +194,7 @@ footer li{
     position: relative;
     display: flex;
     justify-content: center;
-    margin: 0 a;
+    margin: 0 1;
     cursor:auto;
 }
 footer p{
@@ -255,6 +255,9 @@ label{
         justify-content: center;
     }
 
+    .Truck-text{
+        z-index: 5;
+    }
     .Truck-text h2{
         font-size: 1.8rem;
     }
@@ -266,6 +269,12 @@ label{
     }
     h1{
     font-size: 3rem;
+    }
+    footer ul{
+    flex-direction: column;
+    }
+    footer ul p{
+        font-size: 1.1rem
     }
 }
 

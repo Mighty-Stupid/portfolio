@@ -10,7 +10,7 @@ body{
   overflow-x: hidden;
   width: 100%;
 }
-
+/* OVERFLOW-X HIDDEN ДЛЯ ТЕЛЕФОНОВ, БЕЗ НЕГО САЙТ БУДЕТ СУЖЕН ПОКА НЕ ПРОЛИСТАТЬ ДО КОНЦА */
 #root {
   overflow-x: hidden;
 }
