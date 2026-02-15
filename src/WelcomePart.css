@@ -124,7 +124,7 @@
 
 @media screen and (max-width: 800px){
         .imagediv{
-        width: clamp(1300px, 110vw, 1400px);
+        width: clamp(1100px, 110vw, 1200px);
 
         left: 98%;
     }
@@ -141,7 +141,7 @@
 
     }
     .text2{
-        right: 50%;
+        right: 35%;
         width: 200px;
     }
 }
