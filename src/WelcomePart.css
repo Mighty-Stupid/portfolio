@@ -124,22 +124,24 @@
 
 @media screen and (max-width: 800px){
         .imagediv{
-        width: clamp(1050px, 110vw, 1300px);
+        width: clamp(1300px, 110vw, 1400px);
+        transform: translateX(-10%);
+        left: 10%;
     }
         .Parent p{
         font-size: 0.9rem;
     }
     .Parent h1{
         font-size: 3.4rem;
+
     }
     .text1{
         left: 30%;
-        backdrop-filter: blur(10px);
         width: 200px;
+
     }
     .text2{
         right: 30%;
-        backdrop-filter: blur(10px);
         width: 200px;
     }
 }

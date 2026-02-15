@@ -237,13 +237,14 @@ label{
 
 @media screen and (max-width: 800px){
     .svgText{
-        min-width: 100px;
+        min-width: none;
+        max-width:max-content;
     }
     .svgText h2{
         font-size: 1.4rem;
     }
     .Stack-container img{
-    width: 70px;
+    width: 50px;
 }
     .Stack-container{
         width: 100%;
