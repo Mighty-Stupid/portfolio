@@ -125,8 +125,8 @@
 @media screen and (max-width: 800px){
         .imagediv{
         width: clamp(1300px, 110vw, 1400px);
-        transform: translateX(-10%);
-        left: 10%;
+
+        left: 98%;
     }
         .Parent p{
         font-size: 0.9rem;
@@ -141,7 +141,7 @@
 
     }
     .text2{
-        right: 30%;
+        right: 50%;
         width: 200px;
     }
 }

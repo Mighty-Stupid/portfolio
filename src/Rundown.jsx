@@ -159,7 +159,7 @@ function Rundown(){
                     </li>
                     <li>
                         <img src={Svg_mail}></img>
-                        <p>islam.cheche@mail.ru</p>
+                        <p>lamnine@mail.ru</p>
                     </li>
                 </ul>
             </footer>

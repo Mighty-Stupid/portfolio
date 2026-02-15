@@ -13,7 +13,7 @@ function WelcomeP(){
         <>
         <div className="Parent" id='main' >
             <div className='imagediv'>
-                <img src='hand4.png'></img>
+                <img src='hand5.png'></img>
             </div>
             <div className='text1'>
                 <h1>Дизайн</h1>

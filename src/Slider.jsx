@@ -58,8 +58,8 @@ const Slider = () => {
   const sliderItems = [
     { id: 1, header : 'АДАПНИВНОСТЬ', content: 'Адаптивная и отзывчивая верстка под все девайсы, от телефонов до мониторов', logo: Svg_computer  },
     { id: 2, header : 'АНИМАЦИЯ',content: 'Плавная и интерактивная анимация', logo: Svg_play  },
-    { id: 3, header : 'API',content: 'Работа с базами данных/api и их интеграция в фронтэнд', logo: Svg_settings  },
-    { id: 4, header : 'ДИЗАЙН',content: 'вы', logo: Svg_palette  },
+    { id: 3, header : 'API',content: 'Работа с базами данных/api и их интеграция в frontend', logo: Svg_settings  },
+    { id: 4, header : 'ДИЗАЙН',content: 'Точное Выполнение верстки по дизайну', logo: Svg_palette  },
   ];
 
   const nextSlide = () => {

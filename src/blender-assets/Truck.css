@@ -34,4 +34,7 @@
     .Truck{
         width: 160%;
     }
+    .color-change-btn{
+        right: 25%;
+    }
 }
